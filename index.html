@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Blumen</title>
+  <link rel="stylesheet" href="css/main.css" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@100;200;400&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="box">
+      <div class="logo">
+        <a href="index.html"><img src="images/logo.png" alt="ロゴ"></a>
+      </div>
+      <div>
+        <nav>
+          <ul class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#plants">Plants</a></li>
+            <li><a href="#gift">Gift</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <div class="MainVisual"></div>
+  <div class="container">
+    <div class="icons">
+      <div class="icon-item">
+        <a href="#plants"><i class="fas fa-seedling fa-5x"></i></a>
+        <a href="#plants"><p class="txt">Plants</p></a>
+      </div>
+      <div class="icon-item">
+        <a href="#gift"><i class="fas fa-truck fa-5x"></i></a>
+        <a href="#gift"><p class="txt">Gift</p></a>
+      </div>
+      <div class="icon-item">
+        <a href="#news"><i class="fas fa-bullhorn fa-5x"></i></a>
+        <a href="#news"><p class="txt">News</p></a>
+      </div>
+      <div class="icon-item">
+        <a href="#contact"><i class="fas fa-map-marker-alt fa-5x"></i></a>
+        <a href="#contact"><p class="txt">Contact us</p></a>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <h2 id="plants">Plants</h2>
+    <div class="swiper-container">
+      <div class="p-box swiper-wrapper">
+        <div class="p-item item1 swiper-slide">
+          <img src="images/colorful.jpg" alt="カラフル花束">
+          <h3>3,400円 (税込)</h3>
+          <p>カラードブーケ(カラフル)</p>
+        </div>
+        <div class="p-item item2 swiper-slide">
+          <img src="images/pink.jpg" alt="ピンク花束">
+          <h3>3,600円 (税込)</h3>
+          <p>カラードブーケ(ピンク)</p>
+        </div>
+        <div class="p-item item3 swiper-slide">
+          <img src="images/white.jpg" alt="ホワイト花束">
+          <h3>3,300円 (税込)</h3>
+          <p>カラードブーケ(ホワイト)</p>
+        </div>
+        <div class="p-item item4 swiper-slide">
+          <img src="images/blue.jpg" alt="ブルー花束">
+          <h3>4,000円 (税込)</h3>
+          <p>カラードブーケ(ブルー)</p>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+  </div>
+  <div class="container">
+    <h2 id="gift">Gift</h2>
+     <div class="c-row">
+      <div class="c-half">
+        <p>
+           記念日に、愛する方に、お世話になった方へのお誕生日にブーケをプレゼントされてみてはいかがでしょう。<br>
+           お部屋に飾れば生活に潤いを与え、雰囲気が明るくなります。<br>
+           また、御仏前への供花、お墓参りの際の仏花や、お店や会社の開店祝いの贈答など、様々なシーンでお使いいただけます。<br>
+           お客様のご希望に沿った最適なご提案をさせていただきますので、お気軽にご相談ください。<br>
+         </p>
+      </div>
+      <div class="c-half">
+        <img src="images/gift.jpg" width="420" height="260" alt="ギフト">
+      </div>
+    </div>
+    <div class="form-field btn-outer">
+      <div class="btn-inner">
+        <a href="#contact" class="btn">Contact</a>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <h2 id="news">News</h2>
+    <div class="news-box">
+      <div class="news bg-img1">
+            <a href="#">
+                <div>
+                  <h3 class="primary">2019.04.09</h3>
+                  <br>
+                  <p>HAPPY MOTHER'S DAY 2019<br>母の日ギフト特集</p>
+                </div>
+            </a>
+          </div>
+      <div class="news bg-img2">
+            <a href="#">
+                <div>
+                  <h3 class="primary">2019.05.07</h3>
+                  <br>
+                  <p>HAPPY MOTHER'S DAY 2019</p>
+                </div>
+            </a>
+          </div>
+      <div class="news bg-img3">
+            <a href="#">
+                <div>
+                  <h3 class="primary">2019.08.15</h3>
+                  <br>
+                  <p>お盆休みのお知らせ</p>
+                </div>
+            </a>
+          </div>
+    </div>
+  </div>
+  <div class="container">
+    <h2 id="contact">Contact</h2>
+    <div class="form-outer">
+      <div class="form-field">
+        <input class="short" type="text" name="your-name" placeholder="Name" required>
+      </div>
+      <div class="form-field">
+        <input class="short" type="text" name="mail-address" placeholder="Email" required>
+      </div>
+      <div class="form-field">
+        <input class="short" type="text" name="phone-number" placeholder="Phone" required>
+      </div>
+      <div class="form-field">
+        <input class="long" type="textarea" name="message" placeholder="Message" required>
+      </div>
+    </div>
+    <div class="form-field">
+      <a href="#" class="btn">Send</a>
+    </div>
+  </div>
+  <footer>
+    <div class="box">
+      <p class="footer-left">&copy; Blumen All Rights Reserved</p>
+      <ul class="cards">
+        <li><i class="fab fa-cc-visa fa-2x"></i></li>
+        <li><i class="fab fa-cc-paypal fa-2x"></i></li>
+        <li><i class="fab fa-cc-jcb fa-2x"></i></li>
+        <li><i class="fab fa-cc-amex fa-2x"></i></li>
+      </ul>
+    </div>
+  </footer>
+  <div id="scroll-top"><a href="#"><i class="fas fa-chevron-circle-up fa-3x"></i></a></div>
+  <script src="js/scroll.js" type="text/javascript"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script>
+    $(function() {
+      let swiper;
+      $(window).on('load resize', function() {
+        let w = $(window).width();
+        if(w <= 768) {
+          if(swiper) {
+            return;
+          } else {
+            swiper = new Swiper ('.swiper-container', {
+              loop: true,
+
+              pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+                clickable: true,
+              },
+
+              navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+              },
+            });
+          }
+        } else {
+          if(swiper) {
+            swiper.destroy();
+            swiper = undefined;
+          }
+        }
+      });
+    });
+  </script>
+</body>
+</html>
