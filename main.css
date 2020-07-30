@@ -4,11 +4,11 @@ body {
   background: #fff;
   margin: 0;
   font-family: "Helvetica Neue",
-                Arial,
-               "Hiragino Kaku Gothic ProN",
-               "Hiragino Sans",
-                Meiryo,
-                sans-serif;
+    Arial,
+    "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans",
+    Meiryo,
+    sans-serif;
 }
 
 h2 {
@@ -25,8 +25,6 @@ h2 {
 }
 
 *, *::before, *::after {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   -o-box-sizing: border-box;
   -ms-box-sizing: border-box;
   box-sizing: border-box;
@@ -51,10 +49,10 @@ a {
 }
 
 @media screen and (min-width: 768px) {
- .container {
-   padding: 0 30px;
-   width: 1170px;
- }
+  .container {
+    padding: 0 30px;
+    width: 1170px;
+  }
 }
 
 .box {
@@ -105,19 +103,19 @@ nav {
 }
 
 @media screen and (min-width: 768px) {
- .navbar {
-   display: flex !important;
-   font-weight: bold;
- }
+  .navbar {
+    display: flex !important;
+    font-weight: bold;
+  }
 
- .navbar li {
-   flex: 1 1 auto;
-   text-align: center;
- }
+  .navbar li {
+    flex: 1 1 auto;
+    text-align: center;
+  }
 }
 
 .MainVisual {
-  background: no-repeat url(../images/lavender.jpg) center center;
+  background: no-repeat url(https://popo8899.github.io/Blumen.io/lavender.jpg) center center;
   background-size: cover;
   height: 100vh;
 }
@@ -332,6 +330,7 @@ nav {
     display: flex;
   }
 }
+
 @media screen and (min-width: 768px) {
   .c-half {
     width: 50%;
@@ -397,7 +396,7 @@ nav {
 }
 
 .bg-img1 {
-  background: no-repeat url(../images/ct.jpg) top center;
+  background: no-repeat url(https://popo8899.github.io/Blumen.io/ct.jpg) top center;
   cursor: default;
   background-size: cover;
 }
@@ -409,13 +408,13 @@ nav {
 }
 
 .bg-img2 {
-  background: no-repeat url(../images/mom.jpg) top center;
+  background: no-repeat url(https://popo8899.github.io/Blumen.io/mom.jpg) top center;
   cursor: default;
   background-size: cover;
 }
 
 .bg-img3 {
-  background: no-repeat url(../images/sunflower.jpg) top center;
+  background: no-repeat url(https://popo8899.github.io/Blumen.io/sunflower.jpg) top center;
   cursor: default;
   background-size: cover;
 }
@@ -473,6 +472,18 @@ input:focus {
   outline: none;
 }
 
+.input::-moz-placeholder {
+  color: #949799;
+}
+
+.input:-ms-input-placeholder {
+  color: #949799;
+}
+
+.input::-ms-input-placeholder {
+  color: #949799;
+}
+
 .input::placeholder {
   color: #949799;
 }
@@ -515,9 +526,7 @@ input:focus {
   left: 50%;
   background: #fff;
   opacity: 0;
-  transform: translateX(-50%)
-             translateY(-50%)
-             rotate(45deg);
+  transform: translateX(-50%) translateY(-50%) rotate(45deg);
   transition: .2s;
   z-index: -1;
 }
