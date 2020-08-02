@@ -115,7 +115,7 @@ nav {
 }
 
 .MainVisual {
-  background: no-repeat url(../images/lavender.jpg) center center;
+  background: no-repeat url(https://popo8899.github.io/Blumen.io/lavender.jpg) center center;
   background-size: cover;
   height: 100vh;
 }
@@ -359,7 +359,7 @@ nav {
 }
 
 .bg-img1 {
-  background: no-repeat url(../images/ct.jpg) top center;
+  background: no-repeat url(https://popo8899.github.io/Blumen.io/ct.jpg) top center;
   cursor: default;
   background-size: cover;
 }
@@ -371,13 +371,13 @@ nav {
 }
 
 .bg-img2 {
-  background: no-repeat url(../images/mom.jpg) top center;
+  background: no-repeat url(https://popo8899.github.io/Blumen.io/mom.jpg) top center;
   cursor: default;
   background-size: cover;
 }
 
 .bg-img3 {
-  background: no-repeat url(../images/sunflower.jpg) top center;
+  background: no-repeat url(https://popo8899.github.io/Blumen.io/sunflower.jpg) top center;
   cursor: default;
   background-size: cover;
 }
