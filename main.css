@@ -45,12 +45,12 @@ a {
 .container {
   margin: 0 auto;
   padding: 0 10px;
-  max-width: 1000px;
 }
 
 @media screen and (min-width: 768px) {
   .container {
     padding: 0 30px;
+    width: 1170px;
   }
 }
 
@@ -222,6 +222,7 @@ nav {
 @media screen and (min-width: 768px) {
   .p-box {
     display: flex;
+    justify-content: space-around;
   }
 }
 
@@ -243,7 +244,6 @@ nav {
 
 @media screen and (min-width: 768px) {
   .item1 {
-    margin: 0 18px 0 12px;
   }
 }
 
@@ -254,7 +254,6 @@ nav {
 @media screen and (min-width: 768px) {
   .item2 {
     display: block;
-    margin: 0 30px 0 15px;
   }
 }
 
@@ -265,7 +264,6 @@ nav {
 @media screen and (min-width: 768px) {
   .item3 {
     display: block;
-    margin: 0 15px 0 15px;
   }
 }
 
@@ -276,26 +274,27 @@ nav {
 @media screen and (min-width: 768px) {
   .item4 {
     display: block;
-    margin-left: 30px;
   }
 }
 
-.c-row {
-  margin-bottom: 20px;
-  display: flex;
-  flex-wrap: wrap;
+@media screen and (max-width: 768px) {
+  .c-row {
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 
 @media screen and (min-width: 768px) {
   .c-row {
     width: 100%;
     display: flex;
+    justify-content: space-around;
   }
 }
 
 @media screen and (min-width: 768px) {
   .c-half {
-    width: 50%;
   }
 }
 
@@ -534,6 +533,12 @@ footer {
   margin-top: 10px;
   display: flex !important;
   list-style-type: none;
+}
+
+@media screen and (min-width: 768px) {
+  .cards {
+    margin-right: 15px;
+  }
 }
 
 .fa-cc-visa {
